@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tiktokui/static/css/main.90376552.css",
+    "main.js": "/tiktokui/static/js/main.8d057678.js",
+    "static/js/787.5dc7205a.chunk.js": "/tiktokui/static/js/787.5dc7205a.chunk.js",
+    "index.html": "/tiktokui/index.html",
+    "main.90376552.css.map": "/tiktokui/static/css/main.90376552.css.map",
+    "main.8d057678.js.map": "/tiktokui/static/js/main.8d057678.js.map",
+    "787.5dc7205a.chunk.js.map": "/tiktokui/static/js/787.5dc7205a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90376552.css",
+    "static/js/main.8d057678.js"
+  ]
+}
