@@ -1,0 +1,100 @@
+.sidebar {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    cursor: pointer;
+    padding: 5px 20px !important;
+    padding-right: 20px !important;
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    text-decoration: none !important;
+}
+.sidebar:hover {
+    color: #fe2c55;
+    background-color: #f1f1f2;
+}
+.menu {
+    padding-left: 0;
+    border-bottom: 2px solid #f1f1f2 !important;
+}
+.chusideBar {
+    margin-top: 10px;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 6px;
+}
+.chunho {
+    font-size: 18px;
+    font-style: italic;
+    opacity: 0.8;
+    width: 70%;
+}
+.dangnhap {
+    width: 70% !important;
+    height: 45px !important;
+    font-size: 17px !important;
+    color: #fe2c55 !important;
+    font-weight: 500 !important;
+    cursor: pointer !important;
+}
+.dangnhap2 {
+    font-size: 17px !important;
+    color: #fe2c55 !important;
+    font-weight: 500 !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+}
+.dangnhap2:hover {
+    color: #fff !important;
+}
+.dangnhap:hover {
+    background-color: #fe2c55 !important;
+    color: #fff !important;
+}
+.dangnhap:hover .dangnhap2 {
+    color: #fff !important;
+}
+.hieuung2 {
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    color: #000 !important;
+    text-decoration: none !important;
+}
+.hieuung {
+    width: 70% !important;
+    height: 45px !important;
+    font-size: 17px !important;
+    font-weight: 500 !important;
+    cursor: pointer !important;
+    color: #000 !important;
+    background: linear-gradient(
+        50deg,
+        #a4bfff,
+        #d0d4ff,
+        #c4cafe,
+        #c4d2ff,
+        #d9ddff,
+        #58c8d1,
+        #dbe2fc,
+        #f6d1ff,
+        #f9d9ff,
+        #ffe3ff,
+        #f3caff
+    );
+    transition: all 0.5s linear;
+    display: block;
+}
+.hieuung:hover {
+    transform: scale(1.1);
+}
+@media (max-width: 800px) {
+    .chunhomat {
+        display: none;
+    }
+    .theul {
+        border-right: 2px solid #f1f1f2;
+    }
+}

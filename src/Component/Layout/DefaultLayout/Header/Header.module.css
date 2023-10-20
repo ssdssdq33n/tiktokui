@@ -1,0 +1,156 @@
+.searchHeader {
+    font-size: 13px;
+    border-bottom-right-radius: 17px !important;
+    border-top-right-radius: 17px !important;
+    border-bottom-left-radius: none !important;
+    border-top-left-radius: none !important;
+    cursor: pointer !important;
+    color: #666 !important;
+    background-color: #f1f1f2 !important;
+    opacity: 0.9 !important;
+    padding: 0 10px !important;
+}
+.searchHeader:hover {
+    opacity: 1;
+    color: #fff;
+    font-weight: 800;
+    background-color: #666;
+}
+::placeholder {
+    font-size: 14px;
+}
+.inputHeader {
+    height: 45px;
+    border-top-left-radius: 17px !important;
+    border-bottom-left-radius: 17px !important;
+    border-bottom-right-radius: none !important;
+    border-top-right-radius: none !important;
+    background-color: #f1f1f2 !important;
+}
+.formInput {
+    width: 600px !important;
+}
+.buttonHeader {
+    width: 290px !important;
+    height: 70px !important;
+}
+.formButtonHeader {
+    height: 35px;
+    width: 100px;
+    font-size: 17px !important;
+    border: 1px solid #ddd !important;
+    color: #000 !important;
+    font-weight: 600 !important;
+}
+.formButtonHeader:hover {
+    background-color: #666 !important;
+    color: #fff !important;
+}
+.formButtonHeader2 {
+    height: 35px !important;
+    width: 100px !important;
+    font-size: 17px !important;
+}
+.nhap {
+    text-decoration: none !important;
+    color: #fff;
+    font-size: 17px !important;
+}
+
+.tailen {
+    font-size: 17px !important;
+    color: #000 !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+}
+.formButtonHeader:hover .tailen {
+    color: #fff !important;
+}
+.chamHeader {
+    transform: rotate(90deg) !important;
+    font-size: 15px !important;
+    cursor: pointer !important;
+}
+.header {
+    border: 1px solid #f1f1f2 !important;
+    position: relative !important;
+    z-index: 1 !important;
+}
+.vitri {
+    position: absolute;
+    right: 15px;
+    top: 50px;
+    padding-left: 0;
+    list-style-type: none;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: none;
+}
+.cham:hover .vitri {
+    display: block !important;
+}
+.thecon {
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px 20px;
+    padding-right: 20px;
+    width: 100%;
+    display: block;
+}
+.thecon:hover {
+    background-color: #f1f1f2;
+}
+.icon {
+    padding-right: 7px;
+    transition: all linear 0.5s;
+}
+@media (max-width: 850px) and (min-width: 700px) {
+    .thunho {
+        width: 350px !important;
+    }
+    .formButtonHeader {
+        height: 35px !important;
+        width: 90px !important;
+        font-size: 17px !important;
+    }
+    .formButtonHeader2 {
+        height: 35px !important;
+        width: 90px !important;
+        font-size: 17px !important;
+    }
+}
+@media (max-width: 700px) and (min-width: 530px) {
+    .thunho {
+        width: 200px !important;
+    }
+    .formButtonHeader {
+        height: 35px !important;
+        width: 90px !important;
+        font-size: 17px !important;
+    }
+    .formButtonHeader2 {
+        height: 35px !important;
+        width: 90px !important;
+        font-size: 17px !important;
+    }
+}
+@media (max-width: 530px) {
+    .matdi {
+        display: none !important;
+    }
+    .buttonHeader {
+        width: 250px !important;
+        height: 70px !important;
+    }
+    .formButtonHeader {
+        height: 35px !important;
+        width: 90px !important;
+        font-size: 15px !important;
+    }
+    .formButtonHeader2 {
+        height: 35px !important;
+        width: 90px !important;
+        font-size: 15px !important;
+    }
+}
